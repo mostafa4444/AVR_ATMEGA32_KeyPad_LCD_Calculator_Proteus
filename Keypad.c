@@ -315,7 +315,7 @@ void free_arrays(char *arr1 , char *arr2 , char *arr3){
 	int i = 0 ;
 	for (i ; i < Calc_MAX ; i++)
 	{
-		arr1[i] = NULL;
+		*arr1[i] = NULL;
 		arr2[i] = NULL;
 		arr3[i] = NULL;
 
